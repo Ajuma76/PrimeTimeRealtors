@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amarante</item>
+        <item>@font/cutive</item>
+        <item>@font/ovo</item>
+        <item>@font/quando</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/rubik</item>
+    </array>
+</resources>
