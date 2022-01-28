@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RundaActivity">
+    <ImageView
+        android:id="@+id/karen"
+        android:layout_width="391dp"
+        android:layout_height="246dp"
+        android:layout_marginStart="-1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ridgeways" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/amarante"
+        android:text="Runda Estate, Nairobi"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/karen" />
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:srcCompat="@drawable/ic_favorite_24" />
+
+    <TextView
+        android:id="@+id/price22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Price:"
+        android:textColor="@color/purple_700"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Available View Days:"
+        android:textColor="@color/purple_700"
+        app:layout_constraintStart_toStartOf="@+id/price22"
+        app:layout_constraintTop_toBottomOf="@+id/price22" />
+
+    <TextView
+        android:id="@+id/price23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/ovo"
+        android:text="Ksh. 241M"
+        app:layout_constraintBottom_toBottomOf="@+id/price22"
+        app:layout_constraintStart_toEndOf="@+id/price22"
+        app:layout_constraintTop_toTopOf="@+id/price22" />
+
+    <TextView
+        android:id="@+id/days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/ovo"
+        android:text="Thursday and Saturday"
+        app:layout_constraintBottom_toBottomOf="@+id/available"
+        app:layout_constraintStart_toEndOf="@+id/available"
+        app:layout_constraintTop_toTopOf="@+id/available" />
+
+    <TextView
+        android:id="@+id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/quando"
+        android:text="Gallery"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/available"
+        app:layout_constraintTop_toBottomOf="@+id/available" />
+
+    <ImageView
+        android:id="@+id/sitting22"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gallery"
+        app:srcCompat="@drawable/lv10" />
+
+    <ImageView
+        android:id="@+id/bedroom"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/sitting22"
+        app:layout_constraintStart_toEndOf="@+id/sitting22"
+        app:layout_constraintTop_toTopOf="@+id/sitting22"
+        app:srcCompat="@drawable/bedroom10" />
+
+    <ImageView
+        android:id="@+id/kitchen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/bedroom"
+        app:layout_constraintStart_toEndOf="@+id/bedroom"
+        app:layout_constraintTop_toTopOf="@+id/bedroom"
+        app:srcCompat="@drawable/ktn4" />
+
+    <Button
+        android:id="@+id/buy_now"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buy_now"
+        android:fontFamily="@font/cutive"
+        android:padding="3dp"
+        android:text="Buy Now"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description34"
+        app:layout_constraintVertical_bias="0.975" />
+
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/quando"
+        android:text="About"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sitting22" />
+
+    <TextView
+        android:id="@+id/description34"
+        android:layout_width="369dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="4dp"
+        android:text="The apartment is a 2bedroom fully furnished, both bedrooms are en-suite. The apartment also features a cozy, tastefully furnished living room, an open plan fully fitted kitchen and dinning area.  Also available is a large outdoor swimming pool, a fitness centre and garden by the courtyard. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/about2"
+        app:layout_constraintTop_toBottomOf="@+id/about2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

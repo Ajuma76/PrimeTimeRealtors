@@ -7,9 +7,44 @@
         <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/drawable/ic_favorite_24.xml" value="0.240625" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/font/roboto_bold.xml" value="0.25076923076923074" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/font/rubik.xml" value="0.25076923076923074" />
-        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_details.xml" value="0.25" />
-        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_categories.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_categories2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_details.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_favorite.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_gigiri.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_hurlinghum.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_karen.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_kileleshwa.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_kilimani.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_kitisuru.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_kyuna.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_lanet.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_login.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_login2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_login233.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_lowerkabete.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_muthaiga.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_ngong.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_nyari.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_profile1.xml" value="0.2" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_ridgeways.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_riverside.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_rosslyn.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_runda.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_sign_up.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_splash.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_springvaley.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/activity_westlands.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/favorite.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/forsale.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/forsale_fragment2_fragment.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/fragment_categories_activity2.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/fragment_forsale.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/fragment_rental.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/recent_row_item.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/rental.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/pc/AndroidStudioProjects/PrimeTimeRealtorsKt/app/src/main/res/layout/top_places_data.xml" value="0.22" />
       </map>
     </option>

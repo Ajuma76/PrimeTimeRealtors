@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".kilimani">
+    tools:context=".KilimaniActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/karen"
         android:layout_width="391dp"
         android:layout_height="246dp"
         android:layout_marginStart="-1dp"
@@ -37,10 +37,10 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/karen" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/like"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -50,7 +50,7 @@
         app:srcCompat="@drawable/ic_favorite_24" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/price22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -61,37 +61,37 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/available"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:fontFamily="@font/roboto_bold"
         android:text="Available View Days:"
         android:textColor="@color/purple_700"
-        app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintStart_toStartOf="@+id/price22"
+        app:layout_constraintTop_toBottomOf="@+id/price22" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/price23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:fontFamily="@font/ovo"
         android:text="Ksh. 180M"
-        app:layout_constraintBottom_toBottomOf="@+id/textView4"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toTopOf="@+id/textView4" />
+        app:layout_constraintBottom_toBottomOf="@+id/price22"
+        app:layout_constraintStart_toEndOf="@+id/price22"
+        app:layout_constraintTop_toTopOf="@+id/price22" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/days"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:fontFamily="@font/ovo"
         android:text="Thursday and Saturday"
-        app:layout_constraintBottom_toBottomOf="@+id/textView5"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toTopOf="@+id/textView5" />
+        app:layout_constraintBottom_toBottomOf="@+id/available"
+        app:layout_constraintStart_toEndOf="@+id/available"
+        app:layout_constraintTop_toTopOf="@+id/available" />
 
     <TextView
         android:id="@+id/gallery"
@@ -101,11 +101,11 @@
         android:fontFamily="@font/quando"
         android:text="Gallery"
         android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintStart_toStartOf="@+id/available"
+        app:layout_constraintTop_toBottomOf="@+id/available" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/sitting22"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="16dp"
@@ -116,46 +116,46 @@
         app:srcCompat="@drawable/lv5" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/bedroom"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="8dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        app:layout_constraintBottom_toBottomOf="@+id/sitting22"
+        app:layout_constraintStart_toEndOf="@+id/sitting22"
+        app:layout_constraintTop_toTopOf="@+id/sitting22"
         app:srcCompat="@drawable/bedroom5" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/kitchen"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="8dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintBottom_toBottomOf="@+id/bedroom"
+        app:layout_constraintStart_toEndOf="@+id/bedroom"
+        app:layout_constraintTop_toTopOf="@+id/bedroom"
         app:srcCompat="@drawable/ktn5" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buy_now"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/buy_now"
         android:fontFamily="@font/cutive"
         android:padding="3dp"
-        android:text="Buy Now"
+        android:text="BOOK NOW"
         android:textColor="@color/white"
         android:textSize="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/description34"
         app:layout_constraintVertical_bias="0.975" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/about2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -164,16 +164,16 @@
         android:text="About"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintTop_toBottomOf="@+id/sitting22" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/description34"
         android:layout_width="369dp"
         android:layout_height="133dp"
         android:layout_marginTop="4dp"
         android:text="The apartment is a 2bedroom fully furnished, both bedrooms are en-suite. The apartment also features a cozy, tastefully furnished living room, an open plan fully fitted kitchen and dinning area.  Also available is a large outdoor swimming pool, a fitness centre and garden by the courtyard. "
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintStart_toStartOf="@+id/about2"
+        app:layout_constraintTop_toBottomOf="@+id/about2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,10 +23,13 @@ class TopPlacesAdapter(var context: Context, recentDataList: List<TopPlacesData>
     }
 
     override fun onBindViewHolder(holder: TopPlacesViewHolder, position: Int) {
-        holder.countyName.setText(topPlacesDataList[position].getCountyName())
-        holder.placeName.setText(topPlacesDataList[position].getPlaceName())
-        holder.price.setText(topPlacesDataList[position].getPrice())
-        holder.placeImage.setImageResource(topPlacesDataList[position].getImageUrl())
+        holder.countyName.setText(topPlacesDataList[position].countyName)
+        holder.placeName.setText(topPlacesDataList[position].placeName)
+        holder.price.setText(topPlacesDataList[position].price)
+        holder.placeImage.setImageResource(topPlacesDataList[position].imageUrl)
+
+
+
     }
 
     override fun getItemCount(): Int {

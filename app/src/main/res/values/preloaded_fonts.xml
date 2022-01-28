@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/amarante</item>
+        <item>@font/croissant_one</item>
         <item>@font/cutive</item>
         <item>@font/ovo</item>
         <item>@font/quando</item>

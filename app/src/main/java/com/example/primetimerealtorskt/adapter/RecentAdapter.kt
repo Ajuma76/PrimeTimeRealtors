@@ -2,12 +2,15 @@ package com.example.primetimerealtorskt.adapter
 
 import android.content.Context
 import android.content.Intent
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.example.primetimerealtorskt.DetailsActivity
 import com.example.primetimerealtorskt.R
 import com.example.primetimerealtorskt.model.RecentData
 
@@ -23,14 +26,19 @@ class RecentAdapter(var context: Context, recentDataList: List<RecentData>) :
     }
 
     override fun onBindViewHolder(holder: RecentViewHolder, position: Int) {
-        holder.countyName.setText(recentDataList[position].getCountyName())
-        holder.placeName.setText(recentDataList[position].getPlaceName())
-        holder.price.setText(recentDataList[position].getPrice())
-        holder.placeImage.setImageResource(recentDataList[position].getImageUrl())
+        holder.countyName.setText(recentDataList[position].countyName)
+        holder.placeName.setText(recentDataList[position].placeName)
+        holder.price.setText(recentDataList[position].price)
+        holder.placeImage.setImageResource(recentDataList[position].imageUrl)
 
         //opening details activity
         holder.itemView.setOnClickListener {
             val i = Intent(context, DetailsActivity::class.java)
+            i.putExtra("countyName", recentDataList[position].countyName)
+            i.putExtra("placeName", recentDataList[position].placeName)
+            i.putExtra("price", recentDataList[position].price)
+            i.putExtra("placeImage", holder.placeImage.drawable.toString())
+            Log.d("my_image", "Image: "+holder.placeImage.drawable.toString())
             context.startActivity(i)
         }
     }

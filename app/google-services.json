@@ -1,63 +1,41 @@
 {
   "project_info": {
-    "project_number": "298453030347",
-    "firebase_url": "https://primetimerealty1-a0024-default-rtdb.firebaseio.com",
-    "project_id": "primetimerealty1-a0024",
-    "storage_bucket": "primetimerealty1-a0024.appspot.com"
+    "project_number": "265457248364",
+    "project_id": "primetimerealtors-1c400",
+    "storage_bucket": "primetimerealtors-1c400.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:298453030347:android:45ec72fca08ca29d1a524e",
+        "mobilesdk_app_id": "1:265457248364:android:d45436d25b5ffbffea1049",
         "android_client_info": {
           "package_name": "com.example.primetimerealtorskt"
         }
       },
       "oauth_client": [
         {
-          "client_id": "298453030347-55ktogo73mhb8t2kq6hhmauh3un5l2vp.apps.googleusercontent.com",
+          "client_id": "265457248364-q8qtinp2jflrkup621c4dfunpq3oi48t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.primetimerealtorskt",
+            "certificate_hash": "10a310239450db77f88362e9b1e5f928b78b37c5"
+          }
+        },
+        {
+          "client_id": "265457248364-jsofkp2mscich1v8o02ovtp926jev1j2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAQFCc2mT_zO6R9JBDKcKT8ushAn6vdUNg"
+          "current_key": "AIzaSyBta_HXGcMgFpx2haRn3Ip4lfEkLFMQ0zo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "298453030347-55ktogo73mhb8t2kq6hhmauh3un5l2vp.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:298453030347:android:6938c457c366d6911a524e",
-        "android_client_info": {
-          "package_name": "com.example.primetimerealty"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "298453030347-55ktogo73mhb8t2kq6hhmauh3un5l2vp.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAQFCc2mT_zO6R9JBDKcKT8ushAn6vdUNg"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "298453030347-55ktogo73mhb8t2kq6hhmauh3un5l2vp.apps.googleusercontent.com",
+              "client_id": "265457248364-jsofkp2mscich1v8o02ovtp926jev1j2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
